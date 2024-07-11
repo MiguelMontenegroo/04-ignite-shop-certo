@@ -42,7 +42,8 @@ footer: {
   transition: 'all 0.2s ease-in-out',
 
   strong: {
-    fontSize: '$lg'
+    fontSize: '$lg',
+    color: '$gray100',
   },
 
   span: {
