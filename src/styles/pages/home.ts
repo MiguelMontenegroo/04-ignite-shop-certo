@@ -1,4 +1,4 @@
-import { transform } from "next/dist/build/swc"
+
 import { styled } from ".."
 
 export const HomeContainer = styled('main', {
@@ -9,7 +9,7 @@ marginLeft: 'auto',
 minHeight: 656,
 })
 
-export const Product = styled('a', {
+export const Product = styled('div', {
 background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
 borderRadius: 8,
 cursor: 'pointer',
